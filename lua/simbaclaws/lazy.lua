@@ -22,7 +22,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
-require("lazy").setup("simbaclaws.plugins", {
+require("lazy").setup({ import = {"simbaclaws.plugins"}, { import = "simbaclaws.plugins.lsp"}},{
   checker = {
     enabled = true,
     notify = false,
