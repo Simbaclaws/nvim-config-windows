@@ -1,4 +1,4 @@
-#Neovim Configuration
+# Neovim Configuration
 
 Mostly taken from: https://github.com/josean-dev/dev-environment-files
 
