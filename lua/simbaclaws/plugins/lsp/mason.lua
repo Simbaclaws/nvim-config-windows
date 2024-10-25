@@ -1,5 +1,8 @@
 return {
-  "williamboman/mason.nvim",
+  {
+    "williamboman/mason.nvim",
+    cmd = "Mason"
+  },
   {
     "williamboman/mason-lspconfig.nvim",
     event = { "BufReadPre", "BufNewFile" },
