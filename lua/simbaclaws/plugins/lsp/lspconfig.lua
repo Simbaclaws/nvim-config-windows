@@ -10,6 +10,7 @@ return {
     -- import lspconfig plugin
     local lspconfig = require("lspconfig")
 
+    lspconfig["ts_ls"].setup({})
     -- import mason_lspconfig plugin
     local mason_lspconfig = require("mason-lspconfig")
 
